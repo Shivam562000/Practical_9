@@ -1,0 +1,41 @@
+header {
+  color: rgb(102, 53, 53);
+  font-family: Verdana;
+  font-size: large;
+  text-align: center;
+  border: 2redpx solid red;
+  background-color: seashell;
+}
+a {
+  text-decoration: none;
+  color: blue;
+}
+h2 {
+  text-align: center;
+  color: #303030;
+}
+ul {
+  display: flex;
+  justify-content: space-evenly;
+}
+ol {
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: row-reverse;
+}
+dl {
+  display: flex;
+}
+dt {
+  text-transform: uppercase;
+}
+
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: rgb(0, 0, 0);
+  color: white;
+  text-align: center;
+}
